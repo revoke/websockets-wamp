@@ -109,7 +109,7 @@ Topic::broadcast($msg, array $exclude = array(), array $eligible = array());
 
 Send a message to all the connections in this topic.
 
-**Note :** `$exclude` and `$include` work with client ID available through `$client->getId()`
+**Note :** `$exclude` and `$eligible` work with client ID available through `$client->getId()`
 
 ##### How iterate over topic subscribers ?
 
